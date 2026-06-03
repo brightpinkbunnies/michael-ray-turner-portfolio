@@ -1,0 +1,37 @@
+{
+  "site": {
+    "name": "Michael Ray Turner",
+    "tagline": "Photographer based in Savannah, Georgia"
+  },
+  "hero": {
+    "image": "images/hero/hero.jpg",
+    "tagline": "Capturing the beauty of Georgia's Golden Isles"
+  },
+  "portfolio": {
+    "categories": ["Golden Isles Landscapes"],
+    "images": [
+      { "src": "images/portfolio/honah-lee.jpg", "title": "Honah Lee", "category": "Golden Isles Landscapes" },
+      { "src": "images/portfolio/current.jpg", "title": "Current", "category": "Golden Isles Landscapes" },
+      { "src": "images/portfolio/flight-out.jpg", "title": "Flight Out", "category": "Golden Isles Landscapes" },
+      { "src": "images/portfolio/seer.jpg", "title": "Seer", "category": "Golden Isles Landscapes" },
+      { "src": "images/portfolio/treaty.jpg", "title": "Treaty", "category": "Golden Isles Landscapes" },
+      { "src": "images/portfolio/who.jpg", "title": "Who", "category": "Golden Isles Landscapes" },
+      { "src": "images/portfolio/hero.jpg", "title": "Untitled", "category": "Golden Isles Landscapes" }
+    ]
+  },
+  "about": {
+    "image": "images/about/headshot.jpg",
+    "bio": [
+      "Born in Mississippi in 1947, Michael Ray Turner is an American photographer who currently lives and works in Savannah, Georgia. He holds an MA in Visual Arts.",
+      "His work has been acquired by institutions including the Bibliothèque Nationale in Paris, the Museum of Modern Art in New York, the High Museum of Art in Atlanta, and the Fay Gold Gallery in Atlanta.",
+      "Turner's landscape photographs are abstractions of reality — images that reach beyond the subject being photographed. They cross over from normal perception into the realm of the imaginable, where metaphor and symbolism found in the natural topography connect with a primordial consciousness of the environment."
+    ]
+  },
+  "contact": {
+    "email": "mt22@gmail.com",
+    "social": {
+      "instagram": "https://instagram.com/michaelrayturnerintoto"
+    },
+    "message": "Interested in prints, licensing, or just want to say hello? Get in touch."
+  }
+}

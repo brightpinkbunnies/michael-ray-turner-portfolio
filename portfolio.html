@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Michael Ray Turner</title>
+  <meta name="description" content="Golden Isles landscape photography by Michael Ray Turner.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body data-page="portfolio">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" data-site-name>Michael Ray Turner</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div style="height: var(--nav-height);"></div>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>Mythological Landscapes</h2>
+      <p>This series of photographs made between 2015 and 2025 on the Georgia coast barrier islands — an area known in local legend as the Golden Isles.</p>
+      <div class="section-divider"></div>
+    </div>
+    <div class="portfolio-grid"></div>
+  </section>
+
+  <div class="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)">&#8249;</button>
+    <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)">&#8250;</button>
+    <div class="lightbox-caption"></div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2026 Michael Ray Turner. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
